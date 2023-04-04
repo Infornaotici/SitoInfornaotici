@@ -1,0 +1,246 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.freccia{
+    position: fixed;
+    bottom: 50px;
+    right: 70px;
+}
+
+@font-face {
+    font-family: 'PrincipaleBold';
+    src: url('Fonts/Comfortaa-Bold.ttf') format('truetype');
+}
+  
+body {
+    font-family: 'PrincipaleBold';
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+  
+a{text-decoration: none;}
+  
+h1, p{color:#000;}
+  
+.bigger-text{
+    font-family: 'PrincipaleBold';
+    font-size:70px;
+}
+
+.big-text{
+    font-family: 'PrincipaleBold';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.med-text{
+    font-family: 'PrincipaleBold';
+    font-size:26px;
+    font-weight: 600;
+}
+.normal-text{font-size:22px;font-family: 'PrincipaleBold';}
+.small-text{font-size:14px;font-family: 'PrincipaleBold';}
+
+.intro-text{text-transform:uppercase;font-family: 'PrincipaleBold';font-size:20px;font-weight: bold;}
+
+.button{
+    font-family: 'PrincipaleBold';
+    padding:15px 28px;
+    background: #99ffb2;
+    color:#000000;
+    display:inline-block;
+    border-radius:4px;
+    border: #99ffb2;
+}
+
+.header{
+    padding: 30px 10%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #000;
+}
+
+
+.logo {display:flex}
+
+.menu{
+    width: 80%;
+    text-align: left;
+}
+
+.menu li {display: inline-block;}
+.menu li a { color: #fff; padding: 15px; display: block;}
+
+.search{
+    background-color: black;
+    border: #000;
+    padding-right: 15px;
+}
+
+.dropdown 
+{
+  display: inline-block;
+  position: relative;
+  
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	overflow: auto;
+    background-color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content a {
+	display: block;
+	color: #000000;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.dropdown-content a:hover {
+	color: #000000;
+	background-color: #99ffb2;
+}
+
+.hero1{
+    height: 700px;
+    display: flex; width: 100%; align-items: center;
+    background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9)),
+    url('sfondo1.jpg') no-repeat;
+    background-size: cover;
+}
+
+.hero2{
+    height: 700px;
+    display: flex; width: 100%; align-items: center;
+    background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9)),
+    url('sfondo2.jpg') no-repeat;
+    background-size: cover;
+}
+
+.hero3{
+    height: 700px;
+    display: flex; width: 100%; align-items: center;
+    background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9)),
+    url('sfondo3.jpg') no-repeat;
+    background-size: cover;
+}
+
+.hero4{
+    height: 700px;
+    display: flex; width: 100%; align-items: center;
+    background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9)),
+    url('sfondo4.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero5{
+    height: 700px;
+    display: flex; width: 100%; align-items: center;
+    background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9)),
+    url('sfondo5.jpg') no-repeat;
+    background-size: cover;
+}
+
+.hero_content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto; 
+    padding: 30px;
+    text-align: center;
+}
+
+.hero_content h1,
+.hero_content p{color:#fff}
+
+.space{
+    padding: 30px 10%; 
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+
+table{
+    width: 100%;
+    border-spacing: 30px;
+    padding-bottom: 2cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+}
+
+td{
+    text-align: center;
+}
+
+section {
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 15px;
+    padding-top: 5px;
+    box-align: center;
+}
+
+.section {
+    width: 70%;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 15px;
+    padding-top: 5px;
+    box-align: center;
+}
+
+fieldset {
+    clear: left;
+    padding: 10px;
+    height: 58px;
+}
+
+label {
+    font-weight: bold;
+    width: 100%;
+    float: left;
+}
+
+input, textarea, select {
+    border: 1px solid #dcdcdc;
+    font-size: 12px;
+    padding: 4px;
+    width: 100%;
+    color: #000000;
+}
+
+.footer{
+    height: 190px;
+    display: flex; 
+    width: 100%; 
+    align-items: center;
+    background-color: #000000;
+}
+.footer_content{
+    width: 100%;
+    text-align: center;
+}
+
+.footer_content h1,
+.footer_content p{color:#fff}
+
+.copyright{
+    height: 30px;
+    width: 100%; 
+    text-align: center;
+    padding-top: 10px;
+    background-color: #99ffb2;
+    color: #000000;
+}
