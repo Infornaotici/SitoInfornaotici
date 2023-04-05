@@ -131,7 +131,7 @@ h1, p{color:#000;}
     height: 700px;
     display: flex; width: 100%; align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9)),
-    url('sfondo1.jpg') no-repeat;
+    url('sfondo1.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -139,7 +139,7 @@ h1, p{color:#000;}
     height: 700px;
     display: flex; width: 100%; align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9)),
-    url('sfondo2.jpg') no-repeat;
+    url('sfondo2.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -147,7 +147,7 @@ h1, p{color:#000;}
     height: 700px;
     display: flex; width: 100%; align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.9)),
-    url('sfondo3.jpg') no-repeat;
+    url('sfondo3.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -212,7 +212,7 @@ td{
 
 .image{
     display: block;
-    height: 270px;
+    height: 260px;
 }
 
 .overlay{
