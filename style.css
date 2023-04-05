@@ -8,12 +8,12 @@ html{
     right: 70px;
 }
 
-@font-face {
+@font-face{
     font-family: 'PrincipaleBold';
     src: url('Fonts/Comfortaa-Bold.ttf') format('truetype');
 }
   
-body {
+body{
     font-family: 'PrincipaleBold';
     font-size: 20px;
     background-color: rgb(255, 255, 255);
@@ -37,15 +37,29 @@ h1, p{color:#000;}
     font-size: 30px;
     font-weight: 700;
 }
+
 .med-text{
     font-family: 'PrincipaleBold';
     font-size:26px;
     font-weight: 600;
 }
-.normal-text{font-size:22px;font-family: 'PrincipaleBold';}
-.small-text{font-size:14px;font-family: 'PrincipaleBold';}
 
-.intro-text{text-transform:uppercase;font-family: 'PrincipaleBold';font-size:20px;font-weight: bold;}
+.normal-text{
+    font-family: 'PrincipaleBold';
+    font-size:22px;
+}
+
+.small-text{
+    font-size:14px;
+    font-family: 'PrincipaleBold';
+}
+
+.intro-text{
+    text-transform:uppercase;
+    font-family: 'PrincipaleBold';
+    font-size:20px;
+    font-weight: bold;
+}
 
 .button{
     font-family: 'PrincipaleBold';
@@ -58,7 +72,8 @@ h1, p{color:#000;}
 }
 
 .header{
-    padding: 30px 10%; 
+    padding: 30px 10%;
+    max-width: 1350px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -182,16 +197,52 @@ td{
     text-align: center;
 }
 
-section {
-    font-size: 20px;
-    margin: 0 auto;
-    margin-top: 10px;
-    padding: 15px;
-    padding-top: 5px;
-    box-align: center;
+.groups{
+    display: flex;
+    width: 100%;
+    border-spacing: 30px;
+    padding-bottom: 2cm;
+    justify-content: space-evenly;
 }
 
-.section {
+.container{
+    position: relative;
+    width: 100%;
+}
+
+.image{
+    display: block;
+    height: 270px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #99ffb2;
+}
+  
+.container:hover .overlay{opacity: 1;}
+  
+.text{
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+section{
     width: 70%;
     font-size: 20px;
     margin: 0 auto;
@@ -201,19 +252,19 @@ section {
     box-align: center;
 }
 
-fieldset {
+fieldset{
     clear: left;
     padding: 10px;
     height: 58px;
 }
 
-label {
+label{
     font-weight: bold;
     width: 100%;
     float: left;
 }
 
-input, textarea, select {
+input, textarea, select{
     border: 1px solid #dcdcdc;
     font-size: 12px;
     padding: 4px;
@@ -228,6 +279,7 @@ input, textarea, select {
     align-items: center;
     background-color: #000000;
 }
+
 .footer_content{
     width: 100%;
     text-align: center;
