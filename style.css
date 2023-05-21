@@ -274,11 +274,12 @@ input, textarea, select{
 
 .footer{
     height: 190px;
-    display: block;
+    display: flex;
     max-width: 3840px;
     align-items: center;
     text-align: center;
     background-color: #000000;
+    flex-direction: column;
 }
 
 .footer_content{
