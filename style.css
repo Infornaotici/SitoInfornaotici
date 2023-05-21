@@ -274,7 +274,7 @@ input, textarea, select{
 
 .footer{
     height: 190px;
-    display: none;
+    display: block;
     max-width: 3840px;
     align-items: center;
     text-align: center;
