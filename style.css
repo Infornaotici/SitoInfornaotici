@@ -73,7 +73,7 @@ h1, p{color:#000;}
 
 .header{
     padding: 30px 10%;
-    max-width: 1350px;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -94,7 +94,7 @@ h1, p{color:#000;}
 .search{
     background-color: black;
     border: #000;
-    padding-right: 15px;
+    padding-right: 300px;
 }
 
 .dropdown 
