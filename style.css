@@ -273,7 +273,7 @@ input, textarea, select{
 }
 
 .footer{
-    height: 200px;
+    height: 190px;
     max-width: 3840px;
     text-align: center;
     background-color: #000000;
@@ -282,7 +282,7 @@ input, textarea, select{
 .footer_content{
     max-width: 3840px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .footer_content h1,
